@@ -1,0 +1,16 @@
+language: node_js
+
+node_js:
+  - "24"
+
+install:
+  - npm install
+
+script:
+  - npm test
+
+deploy:
+  provider: script
+  script: npm run deploy
+  on:
+    branch: main

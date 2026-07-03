@@ -1,0 +1,22 @@
+{
+  "name": "laboratorio-travis-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js",
+    "deploy": "node deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonidasNarc/laboratorio-travis-ci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LeonidasNarc/laboratorio-travis-ci/issues"
+  },
+  "homepage": "https://github.com/LeonidasNarc/laboratorio-travis-ci#readme"
+}
